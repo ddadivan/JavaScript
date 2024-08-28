@@ -1,21 +1,17 @@
 // 1. Напишіть функцію, яка приймає два числа і повертає їх суму.
 
-function calc(a, b) {
-    return a + b;
-}
+let calc = (a, b) => a + b;
 calc(1,5);
 
 // 2. Напишіть функцію, яка приймає рядок і повертає його в верхньому регістрі.
 
-function changeText(str) {
-    return str.toUpperCase();
-}
+let changeText = (str) => str.toUpperCase();
 
 changeText('Hello, Dmytro')
 
 // 3. Напишіть функцію, яка приймає масив чисел і повертає новий масив з квадратами цих чисел.
 
-function changeNum(arr) {
+let changeNum = (arr) => {
 
     let arrNum = []
 
