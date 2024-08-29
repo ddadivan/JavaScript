@@ -94,8 +94,8 @@ console.log(rentalCarCost(8));
 
 
 //Write a function that takes a list of strings as an argument and returns a filtered list containing the same elements but with the 'geese' removed.
-function gooseFilter (birds) {
-    var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+let gooseFilter = (birds) => {
+    let geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
 
     return birds.filter( item => !geese.includes(item))
 };
@@ -117,7 +117,7 @@ console.log(sumStr("4", "5"));
 //
 // The returned array should consist of each of the elements from the first array multiplied by the integer.
 
-function multiplyAll(arr) {
+let multiplyAll = (arr) => {
 
     let newArr = [];
 
